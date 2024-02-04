@@ -3,6 +3,7 @@ title: Untitled
 format:
   modern2-cv-pdf: default
 keep-tex: true
+output-file: "PepijnVinkCV.pdf"
 author: Pepijn A. Vink
 cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvcolor: 
