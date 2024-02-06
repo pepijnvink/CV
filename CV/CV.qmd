@@ -15,6 +15,12 @@ sidebar:
     - He/Him
     - Pragmatic Bayesian
   sections: 
+    - name: Interests
+      items:
+        - Bayesian Statistics
+        - Longitudinal Data
+        - Bayesian Networks
+        - Open Science
     - name: Skills
       items:
         - text: R
@@ -47,12 +53,6 @@ sidebar:
         - text: Teaching
           exp:
             num: 0.45
-    - name: Interests
-      items:
-        - Bayesian Statistics
-        - Longitudinal Data
-        - Bayesian Networks
-        - Open Science
     - name: Contact
       items:
         - icon: map-marker
