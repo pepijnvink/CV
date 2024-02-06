@@ -3,7 +3,6 @@ title: Untitled
 format:
   modern2-cv-pdf: default
 keep-tex: true
-output-file: "PepijnVinkCV.pdf"
 author: Pepijn A. Vink
 cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvcolor: 
@@ -19,16 +18,19 @@ sidebar:
       items:
         - text: R
           exp:
-            num: 0.7
+            num: 0.8
         - text: Quarto
+          exp:
+            num: 0.6
+        - text: LaTeX
           exp:
             num: 0.55
         - text: R Package Development
           exp: 
-            num: 0.3
+            num: 0.5
         - text: SPSS
           exp:
-            num: 0.6
+            num: 0.65
         - text: JASP
           exp:
             num: 0.55
@@ -40,7 +42,7 @@ sidebar:
             num: 0.3
         - text: GitHub
           exp:
-            num: 0.5
+            num: 0.6
         - text: Teaching
           exp:
             num: 0.45
@@ -112,7 +114,7 @@ Intervals, and the Bayes Factor Through Simulated t-tests (supervised by prof. d
 tibble::tribble(
     ~role, ~institution, ~dates, ~details,
     "Student Assistant Biostatistics Education", "UMC Utrecht", "09/23 - Present", "\\begin{itemize}\\item Taught practicals for the courses ‘Classical Methods in Data Analysis (MSc Epidemiology)’ and ‘Epidemiology and Big Data (MSc Applied Data Science)’.\\end{itemize}",
-    "Student Assistant", "Utrecht University", "09/2021 - Present", "\\begin{itemize}\\item Teaching assistent for several bachelor courses for the faculty of social and behavioral sciences. This includes independently teaching workgroups as well as practicals for SPSS, JASP, R, and NVivo.\\item Practical teacher for UU summer school courses on MPlus.\\item Since September 2022 involved as a research assistant for Hanne Oberman. Tasks include programming for the {ggmice} package, preprocessing data, and working on a case study for a manuscript.\\item Since November 2022 involved as a research assistant on the biennial Open Science Monitor.\\end{itemize}", "Side-jobs", "", "2014-2019", "\\begin{itemize}\\item Supermarkt worker (2014-2016)\\item Dishwasher at a restaurant (2016-2019)\\item Sales employee at a shoe store (2019)\\end{itemize}"
+    "Student Assistant", "Utrecht University", "09/2021 - Present", "\\begin{itemize}\\item Teaching assistent for several bachelor courses for the faculty of social and behavioral sciences. This includes independently teaching workgroups as well as practicals for SPSS, JASP, R, and NVivo.\\item Practical teacher for UU summer school courses on MPlus.\\item Since September 2022 involved as a research assistant for Hanne Oberman. Tasks include programming for the {ggmice} package, preprocessing data, and working on a case study for a manuscript.\\item Since November 2022 involved as a research assistant on the biennial Open Science Monitor.\\end{itemize}", "Side-jobs", "", "2014-2019", "\\begin{itemize}\\item Supermarkt Employee (2014-2016)\\item Dishwasher at a restaurant (2016-2019)\\item Sales employee at a shoe store (2019)\\end{itemize}"
 ) |>
     cvevents(when = "dates", what = "role", where = "institution", descr = "details")
 ```
@@ -123,7 +125,7 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details,
-    "Vice-Praeses (Vice-President)", "U.H.S.V. Anteros", "09/2019 - 09/2020", "\\begin{itemize}\\item U.H.S.V. Anteros is an LGBT+ Student Association in Utrecht.\\item As Vice-President, I was mainly involved with maintaing relationships with other associations, occasionally chairing meetings, and supervising some committees, as well as other smaller tasks.\\end{itemize}",
+    "Vice-President", "U.H.S.V. Anteros", "09/2019 - 09/2020", "\\begin{itemize}\\item U.H.S.V. Anteros is an LGBT+ Student Association in Utrecht.\\item As Vice-President, I was mainly involved with maintaing relationships with other associations, occasionally chairing meetings, and supervising some committees, as well as other smaller tasks.\\end{itemize}",
     "Member and Committee Member", "U.H.S.V. Anteros", "01/2018 - Present", "\\begin{itemize}\\item Committees include: travel committee, lustrum committee, themed drinks committee, party committee, internal regulations committee, and the selection committee for choosing the new board.\\end{itemize}",
     "Educator", "COC Midden-Nederland", "05/2020 - 05/2022", "\\begin{itemize}\\item COC Midden-Nederland is a regional organization that advocates for LGBTI+ rights.\\item As an educator, I taught guest lessons at high school on LGBTI+ experiences.\\end{itemize}"
 ) |>
@@ -137,6 +139,6 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~what, ~conference, ~date, ~details,
-    "Panel", "Conference for the International Scholarship of Teaching and Learning (ISOTL)",  "09/11/2023", "\\begin{itemize}\\item Panel on the role of open science in teaching in higher education.\\end{itemize}") |>
+    "Panel", "Conference for the International Scholarship of Teaching and Learning (ISOTL)",  "09/11/2023", "\\begin{itemize}\\item Panel member on the keynote panel about the role of open science in teaching in higher education.\\end{itemize}") |>
     cvevents(when = "date", what = "what", where = "conference", descr = "details")
 ```
