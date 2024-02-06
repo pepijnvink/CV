@@ -12,6 +12,7 @@ jobtitle: MSc Student Methodology and Statistics
 sidebar:
   image: profile.jpg
   bullets:
+    - He/Him
     - Pragmatic Bayesian
   sections: 
     - name: Skills
